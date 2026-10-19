@@ -1,10 +1,26 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.adi1290_vsx.twa",
-      "sha256_cert_fingerprints": ["E9:D9:20:F0:30:5C:8D:12:62:8A:E9:31:40:AF:4D:A4:16:56:CC:DB:44:C3:0F:58:F3:86:76:10:00:59:E2:5A"]
+      "sha256_cert_fingerprints": [
+        "E9:D9:20:F0:30:5C:8D:12:62:8A:E9:31:40:AF:4D:A4:16:56:CC:DB:44:C3:0F:58:F3:86:76:10:00:59:E2:5A"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.adi1290_vsx.calcul",
+      "sha256_cert_fingerprints": [
+        "69:48:B0:2D:5B:B4:D2:9A:72:FA:D9:3E:8E:35:6F:BC:5E:19:0F:2F:66:FE:FB:ED:DB:11:E4:97:46:61:3F:64"
+      ]
     }
   }
 ]
